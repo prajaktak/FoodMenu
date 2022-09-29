@@ -6,13 +6,13 @@
 //
 
 import Foundation
-struct MenuItem{
+struct MenuItem : Identifiable{
     let id:Int,
         name:String,
         ingrediants:[Ingrediant]
 }
 
-struct Ingrediant{
+struct Ingrediant: Identifiable{
     let id:Int,
         name:String
 }
